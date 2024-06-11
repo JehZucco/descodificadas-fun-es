@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+html, body{
+    height: 100%;
+    background-image: -webkit-linear-gradient(to left bottom, pink, lightgray); /* Para navegadores WebKit (Safari, Chrome) */
+    background-image: -moz-linear-gradient(to left bottom, pink, lightgray); /* Para navegadores Mozilla (Firefox) */
+    background-image: -o-linear-gradient(to left bottom, pink, lightgray); /* Para navegadores Opera */
+    background-image: linear-gradient(to left bottom, pink, lightgray); /* Para navegadores que suportam o padrão sem prefixo */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    width: 300px;
+    line-height: 2;
+    font-size: 1.2rem;
+   
+}
+input{
+    border-radius: 10px;
+    padding: 5px;
+    width: 50px;
+    margin-left: 2px;
+    border: 1px pink solid;
+    box-shadow: inset -2px -2px 5px grey;
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.button{
+    width: fit-content;
+    padding: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin: 0 auto;
+    display: block;
+}
+
+#novaMediaBtn {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    background-color: transparent;
+    border: none;
+    box-shadow: inset -2px -2px 5px grey;
+    border-radius: 15px;
+
+}
+
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.div-media{
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#mostra_media{
+    font-weight: 800;
+    display: none;
+}
